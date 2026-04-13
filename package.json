@@ -1,6 +1,6 @@
 {
   "name": "secure-install",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Secure npm package installer with risk analysis, dependency scanning, and vulnerability detection",
   "type": "module",
   "main": "./index.js",
