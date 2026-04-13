@@ -16,7 +16,7 @@ Instead of scanning for vulnerabilities *after* installation (like `npm audit`),
 
 ## 📦 Installation
 
-### Global Installation
+### Global Installation (Linux/macOS/Windows)
 ```bash
 npm install -g secure-install
 ```
@@ -30,6 +30,8 @@ npm install --save-dev secure-install
 ```bash
 npx secure-install <package>
 ```
+
+> **Note for Windows**: If `secure-install` command is not found after global install, restart your terminal or use `npx secure-install` instead.
 
 ## ⚙️ Usage
 
