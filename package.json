@@ -9,7 +9,7 @@
     "./cli": "./bin/cli.js"
   },
   "bin": {
-    "secure-install": "./bin/cli.js"
+    "secure-install": "bin/cli.js"
   },
   "engines": {
     "node": ">=18.0.0"
@@ -41,7 +41,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/openidle-dev/secure_install.git"
+    "url": "git+https://github.com/openidle-dev/secure_install.git"
   },
   "bugs": {
     "url": "https://github.com/openidle-dev/secure_install/issues"
