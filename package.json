@@ -1,0 +1,54 @@
+{
+  "name": "secure-install",
+  "version": "1.0.1",
+  "description": "Secure npm package installer with risk analysis, dependency scanning, and vulnerability detection",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cli": "./bin/cli.js"
+  },
+  "bin": {
+    "secure-install": "./bin/cli.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "echo \"No tests yet\" && exit 0",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "security",
+    "npm",
+    "install",
+    "vulnerability",
+    "scanner",
+    "audit",
+    "safety",
+    "malware",
+    "supply-chain",
+    "typosquatting",
+    "security-audit"
+  ],
+  "author": "Secure Install Team",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "fast-levenshtein": "^3.0.0",
+    "ora": "^7.0.1",
+    "prompts": "^2.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openidle-dev/secure_install.git"
+  },
+  "bugs": {
+    "url": "https://github.com/openidle-dev/secure_install/issues"
+  },
+  "homepage": "https://github.com/openidle-dev/secure_install#readme",
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/openidle-dev/secure_install"
+  }
+}

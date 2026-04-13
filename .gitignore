@@ -1,0 +1,20 @@
+node_modules
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+
+# Cache
+__pycache__/
+*.pyc
+
+# Reports
+security-report-*.html
