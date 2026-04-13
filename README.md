@@ -16,23 +16,41 @@ Instead of scanning for vulnerabilities *after* installation (like `npm audit`),
 
 ## 📦 Installation
 
+### Global Installation
 ```bash
 npm install -g secure-install
 ```
 
-Or use without installing:
+### Local Installation (as dev dependency)
+```bash
+npm install --save-dev secure-install
+```
 
+### Without Installing (using npx)
 ```bash
 npx secure-install <package>
 ```
 
 ## ⚙️ Usage
 
-### Basic Installation
-
+### Global Installation
 ```bash
 secure-install lodash
 secure-install axios
+```
+
+### Using npx (no install needed)
+```bash
+npx secure-install lodash
+npx secure-install axios express
+```
+
+### Using locally installed package
+```bash
+npm install --save-dev secure-install
+npx secure-install lodash
+# Or run directly
+./node_modules/.bin/secure-install lodash
 ```
 
 ### Security Report Only (No Installation)
@@ -165,6 +183,18 @@ Config file locations (in order of priority):
 ## 📝 Examples
 
 ```bash
+# With global installation
+secure-install lodash
+
+# With npx (no install needed)
+npx secure-install lodash
+
+# With local installation
+npm install --save-dev secure-install
+npm run secure-install lodash
+# Or using npx in local project
+npx secure-install lodash
+
 # Install with safe mode
 secure-install sketchy-package --safe
 
